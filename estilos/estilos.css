@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: grid;
+    text-align: center;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "container__menu"
+    "container__cover"
+    "container__child1"
+    "container__child2"
+    "container__child3"
+    "container__beer1"
+    "container__beer2"
+    "container__beer3"
+    "container__beer4"
+    "container__ig"
+    "container__form"
+    "container__footer";
+}
+.container__menu {
+    background-color: antiquewhite;
+    grid-area: container__menu;
+    height: 80px;
+}
+.container__cover {
+    background-color: aquamarine;
+    grid-area: container__cover;
+    height: 100vh;
+    
+}
+.container__child1 {
+    background-color: brown;
+    grid-area: container__child1;
+    height: 100vh;
+}
+.container__child2 {
+    background-color: cadetblue;
+    grid-area: container__child2;
+    height: 100vh;
+}
+.container__child3 {
+    background-color: chocolate;
+    grid-area: container__child3;
+    height: 100vh;
+}
+.container__beer1 {
+    background-color: coral;
+    grid-area: container__beer1;
+    height: 100vh;
+}
+.container__beer2 {
+    background-color: darkolivegreen;
+    grid-area: container__beer2;
+    height: 100vh;
+}
+.container__beer3 {
+    background-color: darksalmon;
+    grid-area: container__beer3;
+    height: 100vh;
+}
+.container__beer4 {
+    background-color: darkslateblue;
+    grid-area: container__beer4;
+    height: 100vh;
+}
+.container__ig {
+    background-color: darkviolet;
+    grid-area: container__ig;
+    height: 100vh;
+}
+.container__form {
+    background-color: lightcoral;
+    grid-area: container__form;
+    height: 100vh;
+}
+.container__footer {
+    background-color: midnightblue;
+    grid-area: container__footer;
+    height: 80px;
+}
